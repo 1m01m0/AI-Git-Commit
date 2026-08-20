@@ -32,8 +32,12 @@ release.
 ## Installation
 
 ```bash
-pip install ai-git-commit
+pip install ai-git-commit-cli
 ```
+
+The PyPI distribution is named `ai-git-commit-cli` because the shorter
+`ai-git-commit` name is already used by another project. The installed product
+and Git command remain **AI Git Commit** and `git ai-commit`.
 
 For local development:
 

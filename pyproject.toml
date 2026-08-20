@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ai-git-commit"
+name = "ai-git-commit-cli"
 version = "0.1.0"
 description = "Generate high-quality Git commit messages with AI."
 readme = "README.md"
@@ -31,4 +31,3 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-
