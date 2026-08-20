@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-git-commit"
+version = "0.1.0"
+description = "Generate high-quality Git commit messages with AI."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = [
+    "anthropic>=0.34.0,<1.0",
+    "openai>=1.40.0,<2.0",
+    "python-dotenv>=1.0.0,<2.0",
+    "rich>=13.7.0,<14.0",
+    "typer>=0.12.0,<1.0",
+]
+
+[project.scripts]
+git-ai-commit = "ai_git_commit.cli:main"
+ai-commit = "ai_git_commit.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0,<9.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
