@@ -2,9 +2,11 @@
 
 > Generate perfect git commits with AI.
 
+[![CI](https://github.com/1m01m0/AI-Git-Commit/actions/workflows/ci.yml/badge.svg)](https://github.com/1m01m0/AI-Git-Commit/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/ai-git-commit-cli.svg)](https://pypi.org/project/ai-git-commit-cli/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Status: MVP](https://img.shields.io/badge/status-MVP-orange.svg)](https://github.com/)
+[![Status: MVP](https://img.shields.io/badge/status-MVP-orange.svg)](https://github.com/1m01m0/AI-Git-Commit)
 
 AI Git Commit is a lightweight CLI that analyzes staged Git changes and
 generates a clear, conventional commit message with OpenAI, Anthropic, or
@@ -42,8 +44,8 @@ and Git command remain **AI Git Commit** and `git ai-commit`.
 For local development:
 
 ```bash
-git clone <repository-url>
-cd ai-git-commit
+git clone https://github.com/1m01m0/AI-Git-Commit.git
+cd AI-Git-Commit
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements-dev.txt

@@ -26,6 +26,11 @@ dev = [
     "pytest>=8.0.0,<9.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/1m01m0/AI-Git-Commit"
+Repository = "https://github.com/1m01m0/AI-Git-Commit"
+Issues = "https://github.com/1m01m0/AI-Git-Commit/issues"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
